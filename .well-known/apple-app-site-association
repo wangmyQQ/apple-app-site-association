@@ -2,10 +2,19 @@
   "applinks": {
     "details": [
       {
-        "appID": "GZN26S5SLJ.com.iwhalecloud.rebell.dev",
+        "appIDs": [
+          "GZN26S5SLJ.com.iwhalecloud.rebell.dev.Clip",
+          "GZN26S5SLJ.com.iwhalecloud.rebell.dev"
+        ],
         "components": [
           {
-            "/": "*"
+            "/": "/*",
+            "comment": "基础路径匹配"
+          },
+          {
+            "/": "*",
+            "?": "*",
+            "comment": "必须包含：支持带参数的长链接（如NFC链接）加载图文"
           }
         ]
       }
