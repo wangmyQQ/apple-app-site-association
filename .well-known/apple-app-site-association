@@ -2,10 +2,18 @@
   "applinks": {
     "details": [
       {
-        "appIDs": ["GZN26S5SLJ.com.iwhalecloud.rebell.dev.Clip", "GZN26S5SLJ.com.iwhalecloud.rebell.dev"],
-        "components": [{"/": "/*"}, {"/": "*", "?": "*"}]
+        "appID": "GZN26S5SLJ.com.iwhalecloud.rebell.dev",
+        "components": [
+          {
+            "/": "*"
+          }
+        ]
       }
     ]
   },
-  "appclips": { "apps": ["GZN26S5SLJ.com.iwhalecloud.rebell.dev.Clip"] }
+  "appclips": {
+    "apps": [
+      "GZN26S5SLJ.com.iwhalecloud.rebell.dev.Clip"
+    ]
+  }
 }
